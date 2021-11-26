@@ -1,0 +1,71 @@
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-say
+{
+    text-align: center;
+}
+
+.welcome-info
+{
+  
+    width: 50%;
+}
+
+.card-contain
+{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.card
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    block-size: fit-content;
+
+}
+.image
+{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text
+{
+    font-style: italic
+}
+
+.quoter
+{
+    float: right;
+}
+ul
+{
+    display: flex;
+    gap: 14px;
+    padding: 0;
+}
+
+li
+{
+    list-style-type: none;
+}
