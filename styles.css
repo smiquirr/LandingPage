@@ -1,8 +1,15 @@
+body
+{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
 
 header
 {
     display: flex;
     justify-content: space-between;
+    background-color: #1f2937;
+    padding: 10px 156px 10px 156px;
 }
 
 .hero
@@ -10,6 +17,38 @@ header
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #1f2937;
+    padding: 10px 156px 10px 156px;
+}
+
+.hero-text
+{
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+
+.hero-button
+{
+    background-color: #3882F6;
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+    color: white;
+    font-size: 16px;
+    border-style: none;
+}
+
+.welcome-info
+{
+  
+    width: 50%;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.daughters-info
+{
+    padding: 10px 156px 10px 156px;
 }
 
 .d-say
@@ -17,11 +56,9 @@ header
     text-align: center;
 }
 
-.welcome-info
-{
-  
-    width: 50%;
-}
+
+
+
 
 .card-contain
 {
@@ -49,6 +86,10 @@ header
     align-items: center;
 }
 
+.quote-contain
+{
+    padding: 10px 156px 10px 156px;
+}
 .quote-text
 {
     font-style: italic
@@ -58,14 +99,30 @@ header
 {
     float: right;
 }
+
+.action-call
+{
+    margin-top: 80px;
+    padding: 10px 156px 10px 156px;
+}
+
+h2
+{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
 ul
 {
     display: flex;
-    gap: 14px;
+    align-items: center;
+    gap: 24px;
     padding: 0;
 }
 
 li
 {
     list-style-type: none;
+    font-size: 18px;
+    color: #e5e7eb;
 }
