@@ -48,7 +48,8 @@ header
 
 .daughters-info
 {
-    padding: 10px 156px 10px 156px;
+    padding: 10px 156px 10px 100x;
+    margin: 80px;
 }
 
 .d-say
@@ -56,14 +57,11 @@ header
     text-align: center;
 }
 
-
-
-
-
 .card-contain
 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin-top: 40px;
    
 }
 
@@ -75,7 +73,13 @@ header
     align-items: center;
     width: 250px;
     block-size: fit-content;
+    flex: 1;
 
+}
+
+.daughter-d
+{
+    text-align: center;
 }
 .image
 {
@@ -89,15 +93,20 @@ header
 .quote-contain
 {
     padding: 10px 156px 10px 156px;
+    background-color: #E5E7Eb;
 }
+
 .quote-text
 {
-    font-style: italic
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
 }
 
 .quoter
 {
-    float: right;
+    display: block;
+    margin-left: 0;
 }
 
 .action-call
